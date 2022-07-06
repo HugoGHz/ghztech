@@ -57,41 +57,9 @@
 
             <nav id="principal">
                 <ul>
-                    <li>
-                        <a href="#">CATEGORIAS</a>
-                        <ul>
-                            <li><a href="pages/productos.html">COMPONENTES</a></li>
-                            <li><a href="#">COMPUTADORAS</a></li>
-                            <li><a href="#">ACCESORIOS</a></li>
-                            <li><a href="#">AUDIO</a></li>
-                            <li><a href="#">ALMACENAMIENTO</a></li>
-                            <li><a href="#">IMPRESORAS</a></li>
-                            <li><a href="#">CONSUMIBLES</a></li>
-                            <li><a href="#">SOFTWARE</a></li>
-                            <li><a href="#">MONITORES</a></li>
-                            <li><a href="#">REDES E INTERNET</a></li>
-                            <li><a href="#">ELECTRONICA</a></li>
-                            <li><a href="#">CELULARES</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">MARCAS</a>
-                        <ul>
-                            <li><a href="#">AORUS</a></li>
-                            <li><a href="#">INTEL</a></li>
-                            <li><a href="#">RYZEN</a></li>
-                            <li><a href="#">COOLER MASTER</a></li>
-                            <li><a href="#">CORSAIR</a></li>
-                            <li><a href="#">KINGSTON</a></li>
-                            <li><a href="#">ASUS</a></li>
-                            <li><a href="#">NVIDIA</a></li>
-                            <li><a href="#">ACER</a></li>
-                            <li><a href="#">RADEON</a></li>
-                            <li><a href="#">MSI</a></li>
-                            <li><a href="#">XZEAL</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="pages/sucursales.html">SUCURSALES</a></li>
+                    <li><a href="#">MARCAS</a></li>
+                    <li><a href="#">CONFIGURADOR PC</a></li>
+                    <li><a href="#">SUCURSALES</a></li>
                     <li><a href="#">SOPORTE TÉCNICO</a></li>
                     <li><a href="#">PREGUNTAS FRECUENTES</a></li>
                     <li><a href="#">NUESTRA PAGINA</a></li>
@@ -101,7 +69,7 @@
             <div id="search">
                 <form>
                     <input type="text" placeholder="Busca por nombre, marca, categoría y más...">
-                    <input type="button" value="L" class="icon">
+                    <input type="button" value="L" class="icons">
                 </form>
             </div>
         </div>
@@ -111,7 +79,10 @@
     <!---INICIO DEL CONTENIDO-->
     <section class="second-wrap">
         <section id="main-category">
-            <h3>CATEGORIAS</h3>
+            <div id="expand">
+                <h3>CATEGORIAS</h3>
+                <button id="icon" class="material-symbols-rounded">menu</button>
+            </div>
             <div id="cards">
                 <a href="#">
                     <div id="card">
@@ -183,6 +154,12 @@
                     <div id="card">
                         <i class="material-symbols-rounded">smartphone</i>
                         <p>CELULARES</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="card">
+                        <i class="material-symbols-rounded">sports_esports</i>
+                        <p>CONSOLAS</p>
                     </div>
                 </a>
             </div>
@@ -329,5 +306,6 @@
         </div>
     </footer>
     <!---FIN DEL FOOTER--->
+    <script src="js/main.js"></script>
 </body>
 </html>
