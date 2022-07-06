@@ -1,19 +1,5 @@
 /*FUENTES*/
 @font-face{
-    font-family: "LeagueGothic";
-    src: url('fonts/LeagueGothic.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: "OpenSans";
-    src: url('fonts/OpenSans.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
     font-family: "Roboto";
     src: url('fonts/Roboto.ttf');
     font-weight: normal;
@@ -52,6 +38,20 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: "MaterialIcons";
+    src: url('fonts/MaterialIcons.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "MaterialSymbols";
+    src: url('fonts/MaterialSymbolsRounded.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*ESTILOS GENERALES*/
 *{
     margin: 0px;
@@ -71,6 +71,14 @@
 .icon{
     font-family: "WebSymbolsRegular";
     color: black;
+}
+
+.material-symbols-rounded{
+    font-family: "MaterialSymbols";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #666;
 }
 
 .clearfix{
@@ -302,6 +310,56 @@
 }
 
 /*ESTILOS CONTENIDO*/
+#main-category{
+    float: left;
+    width: 1400px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+#main-category h3{
+    float: left;
+    width: 100%;
+    font-family: "BebasNeue";
+    font-size: 23px;
+    font-weight: lighter;
+    background-color: #202020;
+    color: white;
+    text-align: left;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+#cards{
+    float: left;
+    width: 100%;
+    padding-left: 8px;
+}
+
+#card{
+    float: left;
+    width: 103px;
+    height: 120px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    background: white;
+    overflow: hidden;
+    margin: 10px 0px 0px 10px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: all 300ms;
+    text-align: center;
+}
+
+#card p{
+    font-family: "RobotoLight";
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
 #content{
     float: left;
     width: 1400px;
@@ -553,7 +611,7 @@ iframe{
 
 #subcategories h3{
     float: left;
-    width: 260px;
+    width: 270px;
     font-family: "BebasNeue";
     font-size: 23px;
     font-weight: lighter;
