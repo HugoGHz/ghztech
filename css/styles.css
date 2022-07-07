@@ -317,8 +317,13 @@
 }
 
 #cards{
+    display: block;
     float: left;
     width: 100%;
+}
+
+#cards.active{
+    display: none;
 }
 
 #cards a:first-child #card{
