@@ -1,0 +1,311 @@
+@media(max-width:1400px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    #header{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #about-menu{
+        width: 33%;
+    }
+
+    #social-menu{
+        width: 33%;
+    }
+
+    #user-menu{
+        width: 33%;
+    }
+
+    #logo{
+        width: 15%;
+    }
+
+    #principal{
+        width: 60%;
+    }
+
+    #principal ul li a{
+        margin: 0px 5px;
+        padding: 0px;
+    }
+
+    #search{
+        width: 25%;
+    }
+
+    #search input[type="button"], #search input[type="submit"]{
+        margin-left: -4%;
+    }
+
+    #card{
+        width: 6.6%;
+    }
+
+    #card p{
+        font-size: 8px;
+    }
+
+    #widgets{
+        width: 20%;
+    }
+
+    #widget{
+        width: 100%;
+    }
+
+    #news{
+        width: 79%;
+        padding-left: 1%;
+    }
+
+    #publicity{
+        width: 99%;
+    }
+}
+
+@media(max-width:1276px){
+    #logo{
+        width: 13%;
+    }
+    
+    #principal{
+        width: 62%;
+    }
+
+    #search input[type="button"], #search input[type="submit"]{
+        margin-left: -7%;
+    }
+
+    #card{
+        height: auto;
+        margin-left: .8%;
+        padding: 0%;
+    }
+
+    #card p{
+        display: none;
+    }
+}
+
+@media(max-width:1024px){
+    #widgets{
+        display: none;
+    }
+
+    #news{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    #search input[type="button"], #search input[type="submit"]{
+        margin-left: -8%;
+    }
+}
+
+@media(max-width:962px){
+    #banner{
+        height: 50px;
+    }
+
+    #logo{
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    #principal{
+        height: 50px;
+    }
+
+    #principal ul li{
+        line-height: 50px;
+    }
+
+    #search input[type="text"]{
+        margin: 8px -4px 0px 10px;
+    }
+    
+    #search input[type="button"], #search input[type="submit"]{
+        margin-top: 8px;
+        margin-left: -8%;
+    }
+    
+    #cards a:first-child #card{
+        margin-left: 1%;
+    }
+}
+
+@media(max-width:768px){
+
+}
+
+@media(max-width:425px){
+    
+}
+
+@media(max-width:375px){
+    
+}
+
+@media(max-width:390px){
+    #header{
+        height: 50px;
+    }
+
+    #about-menu{
+        height: 20px;
+        width: 100%;
+    }
+
+    #about-menu ul li{
+        line-height: 20px;
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    #social-menu{
+        display: none;
+    }
+
+    #user-menu{
+        height: 20px;
+        width: 100%;
+    }
+
+    #user-menu ul li{
+        line-height: 20px;
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    #logo{
+        width: 100%;
+        text-align: left;
+    }
+
+    #logo button{
+        display: block;
+        margin-top: 0px;
+    }
+
+    #principal{
+        display: none;
+    }
+
+    #principal.active{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #principal ul li{
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #search{
+        display: none;
+    }
+
+    #search.active{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #search input[type="text"]{
+        border: 1px solid #ccc;
+    }
+
+    #search input[type="button"], #search input[type="submit"]{
+        height: 32px;
+    }
+
+    #cards{
+        display: none;
+    }
+
+    #cards.active{
+        display: block;
+        margin: 0px auto;
+        padding-left: 5px;
+    }
+
+    #cards a:first-child #card{
+        margin-left: 0%;
+    }
+
+    #card{
+        width: 100%;
+        box-shadow: none;
+        margin: 0px auto;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #card .material-symbols-rounded{
+        float: left;
+        font-size: 39px;
+        margin-left: 33px
+    }
+
+    #card p{
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 7px;
+    }
+
+    #widgets{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #widget{
+        width: 97%;
+    }
+
+    #widget:last-child{
+        display: none;
+    }
+
+    #news{
+        display: none;
+    }
+
+    #shop #product{
+        width: 97%;
+        margin: 10px 0px 0px 10px;
+        padding: 0px;
+    }
+
+    #last-added #product{
+        width: 97%;
+        margin: 10px 0px 0px 10px;
+        padding: 0px;
+    }
+
+    #footer{
+        height: auto;
+    }
+
+    #footer #menu{
+        width: 100%;
+    }
+
+    #footer #info{
+        width: 100%;
+    }
+
+    #footer #social{
+        width: 100%;
+    }
+}
