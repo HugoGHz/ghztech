@@ -141,18 +141,62 @@
 }
 
 @media(max-width:768px){
+    #about-menu ul li{
+        margin: 5px;
+        line-height: 35px;
+    }
 
+    #social-menu{
+        width: 30%;
+    }
+
+    #user-menu{
+        width: 36%;
+    }
+
+    #user-menu ul li{
+        margin: 5px;
+        line-height: 35px;
+    }
+
+    #logo{
+        font-size: 25px;
+    }
+
+    #principal{
+        width: 67%;
+        text-align: center;
+    }
+
+    #principal ul li{
+        font-size: 11px;
+    }
+
+    #principal ul li a{
+        margin: 0px;
+        padding: 0px 2.5px 0px 2.5px;
+        text-align: center;
+    }
+
+    #search{
+        width: 20%;
+    }
+
+    #search input[type="text"]{
+        margin: 10px -4px 0px 10px;
+    }
+
+    #search input[type="button"], #search input[type="submit"]{
+        margin-top: 10px;
+        margin-left: -19%;
+    }
+
+    #card{
+        width: 99%;
+    }
 }
 
 @media(max-width:425px){
-    
-}
-
-@media(max-width:375px){
-    
-}
-
-@media(max-width:414px){
     #header{
         height: 50px;
     }
@@ -226,6 +270,7 @@
 
     #search input[type="button"], #search input[type="submit"]{
         height: 32px;
+        margin-left: -9px;
     }
 
     #cards{
